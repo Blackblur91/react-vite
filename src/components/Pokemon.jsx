@@ -17,7 +17,10 @@ function Pokemon({ pokemon }) {
 	return (
 		<Card 
 			className="pokemon"
-			sx={{ width: 200 }}
+			sx={{ 
+				width: 200,
+				minHeight: 400
+			}}
 		>
 			<CardHeader
 				title={pokemon.name}
